@@ -1,0 +1,85 @@
+
+body {
+
+	background-image: url("../img/Artboard\ 1.png");
+    background-size:100% 750px;
+   
+  
+}
+::selection
+{
+    background-color: #49d176;
+}
+form{
+    background-color: rgba(240, 248, 255, 0.073);
+    height: 400px;
+    width:22%;
+    border:3px solid #44574d;
+    border-radius: 5px;
+    border-style:groove;
+    float: right;
+    right:20%;
+    position: relative;
+}
+
+#em, #ps{
+    background-color: rgba(240, 255, 255, 0.385);
+    border-image: linear-gradient(135deg, #49d176 39%, rgb(66, 91, 49) 101%);
+    padding: 15px;
+    width:80%;
+    left:5%;
+    position: relative;
+    border-image-slice: 1; 
+    border-radius: 5px;
+
+}
+#chk{
+    top: 62%;
+    position: absolute;
+    left: 40%;
+}
+label{
+    color:#3b4746;
+    margin-left: 5%;
+    font-family : cursive;
+    font-size: 13px;
+}
+#id{
+    background-color: rgba(240, 255, 255, 0.385);
+    border-color: rgb(160, 234, 129);
+    padding: 5% 25% 5% 25%;
+    left:15%;
+    position: relative;
+    background-image: linear-gradient(135deg, #49d176 39%, rgb(163, 238, 113) 101%);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+h2{
+    text-align: center;
+    color:#3b4746;
+    font-family : cursive;
+    
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family:cursive;
+    letter-spacing: 10px;
+    color:#ffffff;
+    text-decoration:double;
+}
+
+@media screen and (max-width: 800px) {
+    #em, #ps {
+      width: 80%; 
+      left: 5%; 
+    }
+    form{
+    width: 90%; 
+    max-width: 300px; 
+    background-color: rgba(240, 248, 255, 0.759);
+    }
+
+  
+  }
